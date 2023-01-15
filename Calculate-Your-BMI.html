@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Your BMI</title>
+</head>
+<body>
+    <script>
+        // display the data on the screen: alert
+        // read keyboard data: prompt
+        var name = prompt("Type your name."); 
+        var weight = prompt("Hello " + name + ", enter your weight.") // Ex: 83.5
+        var height = prompt("Ok "+ name +", now enter your height.") // Ex: 1.84
+        var result = weight / (height * height);
+
+        alert(name + " Your BMI is: " + result);
+    </script>
+</body>
+</html>
